@@ -1,4 +1,4 @@
-# JavaVersionSwitcher
+# java-switch
 A bash script for easily switching which Java version your system should be using on macOS.
 
 ![example](https://github.com/JoniVR/JavaVersionSwitcher/blob/master/example.png)
@@ -12,8 +12,8 @@ It works by renaming the `Info.plist` files of all other versions inside their r
 ## How to use?
 1. Download or clone the script to your computer
 2. Open a terminal window, navigate to the location where you saved the file (`cd /<folder>/`)
-3. Run `chmod +x JavaVersionSwitcher.sh` to allow the user to run the script
-4. Run the script: `sudo ./JavaVersionSwitcher.sh`
+3. Run `chmod +x java-switch` to allow the user to run the script
+4. Run the script: `sudo ./java-switch`
 
 ## Warning
 This script modifies your files (`Info.plist` files inside Java installation folders), this means that Java versions won't work unless you either run the script again and select a version or rename the `Info.plist.disabled` file to `Info.plist` inside `Library/Java/JavaVirtualMachines/jdk{version}.jdk/Contents/`. Use at your own risk.
